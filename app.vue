@@ -2,6 +2,10 @@
   <div>
     <!-- Header (шапка) -->
     <header class="bg-blue-500 p-4 text-white text-center">
+      <nav>
+        <NuxtLink to="/">Главная</NuxtLink>
+        <NuxtLink to="/cart" class="ml-4">Корзина</NuxtLink>
+      </nav>
       <h1 class="text-3xl font-bold">Каталог товаров</h1>
     </header>
 
